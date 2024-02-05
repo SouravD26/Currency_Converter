@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------
 # Name:       Sourav Dutta
-# Purpose:
+# Purpose:    Project
 #
 # Author:      DELL PC
 #
-# Created:     02-12-2023
+# Created:     24-01-2024
 # Copyright:   (c) DELL PC 2023
-# Licence:     <your licence>
 #------------------------------------------------------------------------------
 import requests
 
@@ -21,3 +20,4 @@ convert_amount = amount * exchange_rate[currency]
 
 # Print the converted Amount
 print(f"{amount} is convert to {convert_amount} {currency}")
+
